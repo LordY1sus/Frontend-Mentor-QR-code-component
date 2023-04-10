@@ -1,0 +1,68 @@
+/*GENERAL STYLES*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+p {
+    font-size: 15px;
+}
+
+html, body {
+    height: 100%;
+}
+
+/*ROOT COLORS*/
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+/*MAIN STYLES*/
+main {
+    height: 100%;
+    background-color: var(--light-gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*QR BOX CONTAINER*/
+.qr_box {
+    background-color: var(--white);
+    max-width: 325px;
+    height: 500px;
+    border-radius: 17.5px;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+/*QR IMAGE STYLES*/
+.qr_img {
+    display: flex;
+    flex-direction: column;
+}
+.img_qr {
+    border-radius: 12.5px;
+}
+
+/*QR H1 STYLES*/
+.qr_h1 {
+    margin: 20px 0;
+    text-align: center;
+    color: var(--dark-blue);
+    font-weight: 700;
+}
+/*QR P STYLES*/
+.qr_p {
+    font-weight: 400;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    color: var(--grayish-blue);
+}
